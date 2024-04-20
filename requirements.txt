@@ -1,3 +1,5 @@
-colorama
-urlib3 # For builded loader
+colorama # Нахуя это? Для одной пиздинки)
+urllib3 # For builded loader
 tkinker # For builded loader
+
+# Да да я еблан и только сейчас починил
